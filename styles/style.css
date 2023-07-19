@@ -833,10 +833,11 @@ body{
 
     .more-games-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
         margin-top: 0px;
+        gap: 20px;
     }
 
     .footer-container{
