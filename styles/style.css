@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -289,6 +288,7 @@ body{
     align-items: center;
     margin: 0 130px;
     gap: 250px;
+
 }
 .Play-games-text-section{
     text-align: right;
@@ -360,6 +360,7 @@ body{
     background: #FFF;
     cursor: pointer;
     padding: 5px;
+
 }
 
 /* footer styles */
@@ -624,10 +625,10 @@ body{
     }
     .more-games-container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
-        
+        margin-top: 0px;  
     }
     .footer-container{
         padding: 40px;
@@ -651,3 +652,219 @@ body{
     
 }
 
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .menu-container, .menus{
+        flex-direction: column;
+    }
+
+    .menu-container{
+        padding-left: 130px;
+        width: 100%;
+    }
+
+    .logo{
+        margin: 40px 120px 0 0;
+    }
+
+    .menus{
+        width: 100%;
+    }
+
+    .menus a{
+        margin-top: 10px;
+    }
+
+    .menu-social{
+        margin-top: 10px;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-text{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .banner-img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .banner-img img{
+        margin-left: 40px;
+    }
+
+    .banner-text h1{
+        font-size: 36px;
+    }
+
+    .banner-text h2{
+        font-size: 72px;
+    }
+
+    .main-list-iteams li{
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .banner-container2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-img2{
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner-text2{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .banner-text2 h2{
+        font-size: 36px;
+    }
+
+    .banner-text2 .p1{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .banner-text2 h4{
+        font-size: 20px;
+    }
+
+    .banner-text2 h3{
+        font-size: 28px;
+    }
+
+    .online-game-text-container{
+        margin-top: 80px;
+    }
+
+    .online-game-text-container h3{
+        font-size: 32px;
+    }
+
+    .online-game-text-container h3 > span{
+        font-size: 32px;
+    }
+
+    .online-game-text-container p{
+        font-size: 16px;
+    }
+
+    .game-images-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .game-images-container div{
+        width: 100%;
+    }
+
+    .game-images-container img{
+        width: 100%;
+    }
+
+    .game-images-container p{
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .img3-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .play-button{
+        width: 40px;
+        height: 40px;
+    }
+
+    .play-button i{
+        font-size: 20px;
+    }
+
+    .Play-games-section{
+        flex-direction: column;
+        gap: 50px;
+        margin: 50px;
+        align-items: center;
+    }
+
+    .Play-games-text-section{
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .Play-games-text-section h3{
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+    .Play-games-img img{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .badge-img{
+        border-radius: 8px;
+        position: relative;
+        bottom: 180px;
+        right: 40px;
+    }
+
+    .badge-img img{
+        width: 50%;
+    }
+
+    .more-games-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .footer-container{
+        padding: 40px;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo2{
+        flex-direction: row;
+    }
+
+    .features,
+    .social-contacts,
+    .tearms-condition,
+    .copy{
+        flex-direction: column;
+    }
+
+    .social-contacts,
+    .features{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tearms-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
