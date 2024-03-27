@@ -344,6 +344,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 8px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    
     
 }
 .games p{
